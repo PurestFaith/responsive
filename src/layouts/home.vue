@@ -2,7 +2,7 @@
   <div class="">
     <!-- 导航 -->
     <div
-      class="sticky top-0 flex w-full items-center justify-between bg-slate-700 p-5 shadow-lg"
+      class="sticky top-0 flex w-full items-center justify-between bg-green-600 p-5 shadow-lg"
     >
       <div class="font-semibold">
         <div>MY</div>
@@ -11,7 +11,7 @@
       <div class="cursor-pointer md:hidden" @click="flag">开关</div>
       <div
         :class="{ hidden: isActive, flex: !isActive }"
-        class="absolute left-0 right-0 top-5 translate-y-16 cursor-pointer flex-col items-center gap-4 bg-slate-600 p-4 shadow-lg md:static md:flex md:translate-y-0 md:flex-row md:bg-opacity-0 md:bg-none md:shadow-none"
+        class="absolute left-0 right-0 top-5 translate-y-16 cursor-pointer flex-col items-center gap-4 bg-green-600 p-4 shadow-lg md:static md:flex md:translate-y-0 md:flex-row md:bg-opacity-0 md:bg-none md:shadow-none"
         role="menu"
         aria-expanded="false"
         ref="box"
